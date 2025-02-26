@@ -5,4 +5,4 @@ const todoSchema = mongoose.Schema({
   description: String,
   completed: Boolean
 });
-const Cat = mongoose.model('Cat',{todoSchema:todoSchema})
+const Todo = mongoose.model('Todo',todoSchema)
